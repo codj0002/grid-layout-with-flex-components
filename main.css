@@ -28,18 +28,18 @@ body {
 .emoji h2 {
   margin: 0;
   border-bottom: 2px solid #ccc;
-  order: 1; /* Makes title appear first */
+  order: 1; /* Makes title show first */
 }
 
 .emoji .icon {
   font-size: 4rem;
-  order: 0; /* Makes emoji appear before title */
+  order: 0; /* Makes emoji show before title */
   align-self: center; /* Centers emoji horizontally */
   margin: 10px 0; /* Adds spacing around emoji */
 }
 
 .emoji p {
-  order: 2; /* Makes paragraph appear after title */
+  order: 2; /* Makes paragraph show after title */
   flex-grow: 1; /* Pushes button to bottom */
 }
 
@@ -49,6 +49,6 @@ body {
   color: white;
   padding: 1rem;
   border-radius: 8px;
-  order: 3; /* Makes button appear last */
+  order: 3; /* Makes button show last */
   margin-top: auto; /* Pushes button to bottom */
 }
